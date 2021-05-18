@@ -1,4 +1,4 @@
-package bsu.rfe.java.group8.lab8.Yury.varA4.entity;
+package bsu.rfe.java.group8.lab9.Yury.varA4.entity;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

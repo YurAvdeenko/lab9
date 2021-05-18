@@ -1,13 +1,12 @@
-package bsu.rfe.java.group8.lab8.Yury.varA4.tag;
+package bsu.rfe.java.group8.lab9.Yury.varA4.tag;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.PageContext;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 
-import bsu.rfe.java.group8.lab8.Yury.varA4.entity.User;
-import bsu.rfe.java.group8.lab8.Yury.varA4.entity.UserList;
-import bsu.rfe.java.group8.lab8.Yury.varA4.entity.UserListHelper;
-import bsu.rfe.java.group8.lab8.Yury.varA4.entity.UserList.UserExistsException;
+import bsu.rfe.java.group8.lab9.Yury.varA4.entity.User;
+import bsu.rfe.java.group8.lab9.Yury.varA4.entity.UserList;
+import bsu.rfe.java.group8.lab9.Yury.varA4.entity.UserListHelper;
 
 import java.io.IOException;
 
@@ -36,7 +35,7 @@ public class AddUser extends SimpleTagSupport {
             try {
                 userList.addUser(user);
                 UserListHelper.saveUserList(userList);
-            } catch (UserExistsException e) {
+            } catch (UserList.UserExistsException e) {
                 errorMessage = "A user with this login already exists!";
             }
         }
