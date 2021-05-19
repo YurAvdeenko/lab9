@@ -11,7 +11,7 @@
     <tag>
         <description>adds new user</description>
         <name>addUser</name>
-        <tag-class>bsu.frct.java.lab9.tag.AddUser</tag-class>
+        <tag-class>bsu.rfe.java.group8.lab9.Yury.varA4.tag.AddUser</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <description>username</description>
@@ -23,7 +23,7 @@
     <tag>
         <description>deletes user</description>
         <name>deleteAd</name>
-        <tag-class>bsu.frct.java.lab9.tag.DeleteAd</tag-class>
+        <tag-class>bsu.rfe.java.group8.lab9.Yury.varA4.tag.DeleteAd</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <description>ad</description>
@@ -35,7 +35,7 @@
     <tag>
         <description>type prod</description>
         <name>type</name>
-        <tag-class>bsu.frct.java.lab9.tag.NewType</tag-class>
+        <tag-class>bsu.rfe.java.group8.lab9.Yury.varA4.tag.NewType</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <description>type ad</description>
@@ -47,7 +47,7 @@
     <tag>
         <description>sorts list</description>
         <name>getAds</name>
-        <tag-class>bsu.frct.java.lab9.tag.GetAds</tag-class>
+        <tag-class>bsu.rfe.java.group8.lab9.Yury.varA4.tag.GetAds</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <description>vision ur own ads</description>
@@ -83,7 +83,7 @@
     <tag>
         <description>login user</description>
         <name>login</name>
-        <tag-class>bsu.frct.java.lab9.tag.Login</tag-class>
+        <tag-class>bsu.rfe.java.group8.lab9.Yury.varA4.tag.Login</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <description>name</description>
@@ -101,7 +101,7 @@
     <tag>
         <description>description</description>
         <name>updateAd</name>
-        <tag-class>bsu.frct.java.lab9.tag.UpdateAd</tag-class>
+        <tag-class>bsu.rfe.java.group8.lab9.Yury.varA4.tag.UpdateAd</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <description>ad</description>

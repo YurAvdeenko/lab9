@@ -1,6 +1,6 @@
 <%@ tag pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@attribute name="ad" required="true" rtexprvalue="true" type="bsu.frct.java.lab9.entity.Ad"%>
+<%@attribute name="ad" required="true" rtexprvalue="true" type="bsu.rfe.java.group8.lab9.Yury.varA4.entity.Ad"%>
 
 <c:if
 	test="${sessionScope.authUser!=null && ad!=null &&

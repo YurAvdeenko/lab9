@@ -13,7 +13,7 @@
 	<my:layout1Column>
 		<h1>New user registration</h1>
 		<my:errorMessage />
-		<form action="/Lab_9/doRegister.jsp" method="post">
+		<form action="${pageContext.request.contextPath}/doRegister.jsp" method="post">
 			<table body="0" cellspacing="0" cellpadding="10">
 				<tr>
 					<td>Login:</td>

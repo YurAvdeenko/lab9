@@ -1,10 +1,10 @@
 package bsu.rfe.java.group8.lab9.Yury.varA4.servlet;
 
+import bsu.rfe.java.group8.lab9.Yury.varA4.entity.*;
+
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
-import bsu.rfe.java.group8.lab8.Yury.varA4.entity.*;
-import bsu.rfe.java.group8.lab9.Yury.varA4.entity.*;
 
 public class StartupServlet extends HttpServlet {
 

@@ -13,7 +13,7 @@
 		<c:set var="adData" scope="session" value="${ad}" />
 	</c:when>
 	<c:otherwise>
-		<jsp:useBean id="adData" class="bsu.frct.java.lab9.entity.Ad" scope="session" />
+		<jsp:useBean id="adData" class="bsu.rfe.java.group8.lab9.Yury.varA4.entity.Ad" scope="session" />
 	</c:otherwise>
 </c:choose>
 <jsp:setProperty name="adData" property="subject" />

@@ -13,8 +13,7 @@
 	<h1>Main page</h1>
 	<my:layout2Columns leftColumnWidth="68%" rightColumnWidth="28%">
 		<jsp:attribute name="leftColumnBody">
-<ad:getAds range="all" var="adListing" sort="${sessionScope.sort}"
-				dir="${sessionScope.dir}" />
+<ad:getAds range="all" var="adListing" sort="${sessionScope.sort}" dir="${sessionScope.dir}" />
 <my:adListing adListing="${adListing}" editMode="false" />
 	</jsp:attribute>
 		<jsp:attribute name="rightColumnBody">

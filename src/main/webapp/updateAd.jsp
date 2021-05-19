@@ -29,7 +29,7 @@
 			ads
 		</h1>
 		<my:errorMessage />
-		<form action="/Lab_9/doUpdateAd.jsp" method="post">
+		<form action="${pageContext.request.contextPath}/doUpdateAd.jsp" method="post">
 			<c:if test="${param.id>0}">
 				<input type="hidden" name="id" value="${param.id}">
 			</c:if>
@@ -51,7 +51,7 @@
 					<td><input type="submit" value="Save">
 						<input type="button" value="Cancel"
 						onclick="window.location='<c:url value="/cabinet.jsp" />';">
-					</select></td>
+					</td>
 				</tr>
 
 			</table>

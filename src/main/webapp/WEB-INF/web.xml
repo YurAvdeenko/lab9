@@ -11,7 +11,7 @@
   <servlet>
     <display-name>StartupServlet</display-name>
     <servlet-name>StartupServlet</servlet-name>
-    <servlet-class>bsu.frct.java.lab9.servlet.StartupServlet</servlet-class>
+    <servlet-class>bsu.rfe.java.group8.lab9.Yury.varA4.servlet.StartupServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
 

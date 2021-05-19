@@ -6,7 +6,7 @@
 <fmt:requestEncoding value="UTF-8" />
 
 <c:remove var="userData" />
-<jsp:useBean id="userData" class="bsu.frct.java.lab9.entity.User" scope="session" />
+<jsp:useBean id="userData" class="bsu.rfe.java.group8.lab9.Yury.varA4.entity.User" scope="session" />
 <jsp:setProperty name="userData" property="*" />
 <ad:addUser user="${userData}" />
 <c:choose>
